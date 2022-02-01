@@ -14,3 +14,7 @@ h1{
     background-position: center;
 
     }
+    #profile-photo{
+        width: 30%;
+        height:400px;
+    }

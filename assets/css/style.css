@@ -1,10 +1,12 @@
 
-
- /*reset*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@300&display=swap');
+ 
+/*reset*/
  *{
   margin:0;
   padding:0;
   text-decoration: none;
+  border: none;
 
  }
  li{
@@ -12,9 +14,51 @@
  }
 /*base styles*/
 body{
+  font-family:Lato, sans-serif;
+  font-weight: 300;
   background-color: #fafafa;
   overflow-x: hidden;
+  color:#3a3a3a;
 
+}
+/* heading and logo */
+h1, h2 {
+  font-family:Bree Serif, serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #252525 ;
+}
+#logo{
+  float:left;
+  font-size: 300%;
+}
+/*navigation links*/
+#menu {
+  font-size: 130%;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+#menu, #logo {
+  line-height: 70px;
+}
+#menu > li{
+  
+    display: list-item;
+    list-style: none;
+    margin-right: 20px;
+  
+  }
+  #menu a {
+    color: inherit;}
+
+  #menu a:hover {
+    border-bottom: 2px solid #3a3a3a;
+    
+
+  }
+.active{
+  border-bottom: 2px solid #3a3a3a; 
 }
 
 #hero-image{
@@ -24,6 +68,8 @@ body{
     background-size :cover;
     background-position: center;
     position: relative;
+    margin-top: 10px;
+    margin-bottom: 75px;
 
     }
     

@@ -1,12 +1,22 @@
-*{
-    margin:0;
-    padding:0;
-    border:none;
+
+
+ /*reset*/
+ *{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+
+ }
+ li{
+   list-style-type: none;
+ }
+/*base styles*/
+body{
+  background-color: #fafafa;
+  overflow-x: hidden;
+
 }
 
-h1{
-    color: red;
-}
 #hero-image{
     width: 100%;
     height: 600px;
@@ -18,8 +28,8 @@ h1{
     }
     
     #profile-photo{
-        width: 30%;
-        height:400px;
+        width: 100%;
+        height:200px;
     
     }
     #profile-text {

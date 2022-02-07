@@ -26,35 +26,31 @@
         </nav>
 
     </header>
-    <div id ="contact-bg-image">
-    <h3>Contact Form</h3>
+    <div class ="contact-bg-image">
+    
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+            <h2>Connect with me </h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname"  name="first_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" class="text-input" id="email" name="email_address" required>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
+            <label for="subject">Subject</label>
+            <textarea id="subject" class="text-input" name="subject" placeholder="Write something.."></textarea>
+            
+           
+            
+            <input class="join-button" type="submit" value="Join the mycelial network">
+        </form>
 </div>
     
       
-    </div>
+    
     <footer>
-        social media link here
+      
         <ul class="social-networks">
             <li> <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook"></i></a></li>
             <li> <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"> <i class="fab fa-twitter-square"></i></a></li>

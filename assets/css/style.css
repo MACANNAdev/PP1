@@ -30,6 +30,9 @@ body{
   clear: both;
   display: table;
 }
+
+
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -66,11 +69,11 @@ h1, h2 {
 #menu {
   font-size: 100%;
   letter-spacing: 5px;
-  display: flex;
+  
  
 }
 #menu, #logo {
-  line-height: 70px;
+  line-height: 30px;
 }
 #menu > li{
   
@@ -143,11 +146,16 @@ h1, h2 {
 
 /*events page */
 .events-images{
-    height:300px;
-    width:300px;
+   
 }
 
-  
+.events-text{
+  font-size:20px;
+  margin-left: 33%;
+  margin-right: 33%;
+
+
+}
 
 
 /* Form page */
@@ -209,15 +217,31 @@ border-color:#f16c6b;
 /* small tablet styles */
 
 @media screen and (min-width:620px) {
-
+  #menu {
+    font-size: 100%;
+    letter-spacing: 5px;
+    display: flex;
+   
+  }
 }
 
 /*large tablets & laptop styles */
 @media screen and (min-width:960px) {
-
+  #menu {
+    font-size: 100%;
+    letter-spacing: 5px;
+    display: flex;
+   
+  }
 }
 
 /* desktop styles */
 @media screen and (min-width:1200px) {
+  #menu {
+    font-size: 100%;
+    letter-spacing: 5px;
+    display: flex;
+   
+  }
 
 }

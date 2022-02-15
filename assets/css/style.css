@@ -92,10 +92,9 @@ h1, h2 {
     }
   
     .friends{
-      margin-right: 33%;
-      margin-left: 33%;
       text-align: center;
       font-size: 10px;
+      margin-bottom: 10px;
     }
 
     .profile-photo>img{
@@ -103,8 +102,9 @@ h1, h2 {
       height:auto
     }
     .profile-text {
+      margin-top: 20px;
       text-align: center;
-      font-size: 10px;
+      font-size: 13px;
     }
     
     footer{
@@ -205,17 +205,24 @@ border-color:#f16c6b;
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 510px) {
   /* For tablets: */
   .flex-header{
     display:flex;
     justify-content:space-between
   
   }
+  #menu, #logo {
+    margin-top:15px
+    
+  }
   #menu {
-    font-size: 100%;
+    font-size: 120%;
     letter-spacing: 5px;
     display: flex;
+  }
+  .profile-text {
+    font-size: 11px;
   }
 
   .col-1 {width: 8.33%;}
@@ -232,10 +239,26 @@ border-color:#f16c6b;
   .col-12 {width: 100%;}
 }
 
- /* For laptop-desktop: */
-@media only screen and (min-width: 768px) {
- 
+ /* Small screens, laptops. */
+@media only screen and (min-width: 769px) {
+  .flex-header{
+    display:flex;
+    justify-content:space-between
   
+  }
+  #menu, #logo {
+    margin-top:15px
+    
+  }
+  #menu {
+    font-size: 120%;
+    letter-spacing: 5px;
+    display: flex;
+  }
+  .profile-text {
+    font-size: 11px;
+  }
+
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -249,3 +272,65 @@ border-color:#f16c6b;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+/*Desktops, large screens*/
+  @media only screen and (min-width: 1025px) {
+    .flex-header{
+      display:flex;
+      justify-content:space-between
+    
+    }
+    #menu {
+      font-size: 100%;
+      letter-spacing: 5px;
+      display: flex;
+    }
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  }
+
+
+
+  /*extra large screens*/
+  @media only screen and (min-width: 1201px) {
+    .flex-header{
+      display:flex;
+      justify-content:space-between
+    
+    }
+    #menu {
+      font-size: 100%;
+      letter-spacing: 5px;
+      display: flex;
+    }
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  }
+
+
+
+

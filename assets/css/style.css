@@ -101,14 +101,11 @@ h1, h2 {
       font-size: 10px;
     }
 
-    #profile-photo{
-        width: 100%;
-        height:200px;
-    
+    .profile-photo>img{
+      width:100%;
+      height:auto
     }
-    #profile-text {
-      margin:10%;
-     
+    .profile-text { 
       text-align: center;
       font-size: 10px;
     }
@@ -134,15 +131,17 @@ h1, h2 {
 
 
 /*events page */
-.events-images{
+.events-images>img{
+    width:100%;
+    height:auto
+  }
+  
    
-}
+
 
 .events-text{
   font-size:20px;
-  margin-left: 33%;
-  margin-right: 33%;
-
+  
 
 }
 
@@ -217,7 +216,7 @@ border-color:#f16c6b;
     display: flex;
   }
 
-    .col-1 {width: 8.33%;}
+  .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
   .col-4 {width: 33.33%;}
@@ -230,8 +229,10 @@ border-color:#f16c6b;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+ /* For laptop-desktop: */
 @media only screen and (min-width: 768px) {
-  /* For desktop: */
+ 
   #menu {
     font-size: 100%;
     letter-spacing: 5px;

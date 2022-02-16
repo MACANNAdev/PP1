@@ -24,22 +24,22 @@ body{
 
 }
 /*grid styles*/
-
+.row{
+  margin-bottom:20px;
+  padding:5px;
+}
 .row::after {
   content: "";
   clear: both;
   display: table;
-  margin-bottom: 50px;
+  
 }
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  width: 100%; 
 }
 
-
-
-/* heading and logo */
 h1, h2 {
   font-family:Bree Serif, serif;
   text-transform: uppercase;
@@ -50,7 +50,7 @@ h1, h2 {
 #logo{
   font-size: 200%;
 }
-/*navigation links*/
+
 #menu {
   font-size: 100%;
   letter-spacing: 5px;
@@ -108,6 +108,10 @@ h1, h2 {
       font-size: 13px;
       white-space: pre-line;
     }
+    .friends, .profile-photo, .profile-text{
+      padding:10px;
+      
+    }
     
     footer{
         height: 100px;
@@ -127,24 +131,21 @@ h1, h2 {
     
     } 
 
-
-
 /*events page */
 .events-images>img{
     width:100%;
     height:auto
   }
   
-   
-
-
 .events-text{
   font-size:20px;
+  text-align: center;
   white-space: pre-line;
   
-
 }
-
+.events-text > h1{
+  font-size:25px;
+  }
 
 /* Form page */
  
@@ -193,7 +194,7 @@ border-color:#f16c6b;
    padding: 15px 32px 15px 32px;
    text-align:center;
    font-size:100%;
-   background-color:#f16c6b;
+   background-color:#1b6085;
    color:#fafafa;
    display:block;
    
@@ -204,16 +205,14 @@ border-color:#f16c6b;
 }
 
 /* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
+
 
 @media only screen and (min-width: 510px) {
   /* For tablets: */
   .flex-header{
     display:flex;
     justify-content:space-between;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   
   }
   #menu, #logo {
@@ -229,6 +228,23 @@ border-color:#f16c6b;
     font-size: 11px;
     margin-top: 0;
   }
+
+/*Events page*/
+  .events-images{
+    margin-top:10px;
+  }
+    
+  .events-images>img{
+     width:95%;
+  } 
+  
+  .events-text{
+    font-size: 15px;
+  }
+
+  .events-text > h1{
+    font-size:20px;
+    }
 
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -246,51 +262,55 @@ border-color:#f16c6b;
 
  /* Small screens, laptops. */
 @media only screen and (min-width: 769px) {
- 
+
+  #menu {
+    font-size: 140%;}
+  #logo{
+      font-size: 220%;
+      margin-left: 10px;
+    }
+
+  #menu > li{  
+      margin-right: 13px;
+    }
+
   .profile-text {
     font-size: 15px;
     margin-top: 12px;
   }
 
- 
+  .events-images>img{
+    width:90%;
+ }
+
+.events-text{
+  font-size: 20px; 
+}
+.events-text > h1{
+  font-size:25px;
+  }
+  
+.col-s7{width: 58.33%;}
+
+.col-s5{width: 41.66%;}
+}
 /*Desktops, large screens*/
   @media only screen and (min-width: 1025px) {
-    
-   
-
-  }
-
-
-
-  /*extra large screens*/
-  @media only screen and (min-width: 1201px) {
-    .flex-header{
-      display:flex;
-      justify-content:space-between
-    
-    }
     #menu {
-      font-size: 100%;
-      letter-spacing: 5px;
-      display: flex;
+      font-size: 160%;}
+    #logo{
+        font-size: 250%;
+      }
+    #menu > li{
+        margin-right: 15px;}
+
+      .profile-text {
+        font-size: 15px;
+        margin-top: 20px;
+      }
+
+      .events-images>img{
+        width:80%;
+     }
+      
     }
-    
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
-
-  }
-
-
-
-

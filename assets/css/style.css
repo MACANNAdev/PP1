@@ -29,6 +29,7 @@ body{
   content: "";
   clear: both;
   display: table;
+  margin-bottom: 50px;
 }
 
 [class*="col-"] {
@@ -87,14 +88,14 @@ h1, h2 {
     background-position: center;
     position: relative;
     margin-top: 10px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 
     }
   
     .friends{
       text-align: center;
       font-size: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 50px;
     }
 
     .profile-photo>img{
@@ -105,6 +106,7 @@ h1, h2 {
       margin-top: 20px;
       text-align: center;
       font-size: 13px;
+      white-space: pre-line;
     }
     
     footer{
@@ -138,6 +140,7 @@ h1, h2 {
 
 .events-text{
   font-size:20px;
+  white-space: pre-line;
   
 
 }
@@ -209,7 +212,8 @@ border-color:#f16c6b;
   /* For tablets: */
   .flex-header{
     display:flex;
-    justify-content:space-between
+    justify-content:space-between;
+    margin-bottom: 30px;
   
   }
   #menu, #logo {
@@ -223,6 +227,7 @@ border-color:#f16c6b;
   }
   .profile-text {
     font-size: 11px;
+    margin-top: 0;
   }
 
   .col-1 {width: 8.33%;}
@@ -241,63 +246,18 @@ border-color:#f16c6b;
 
  /* Small screens, laptops. */
 @media only screen and (min-width: 769px) {
-  .flex-header{
-    display:flex;
-    justify-content:space-between
-  
-  }
-  #menu, #logo {
-    margin-top:15px
-    
-  }
-  #menu {
-    font-size: 120%;
-    letter-spacing: 5px;
-    display: flex;
-  }
+ 
   .profile-text {
-    font-size: 11px;
+    font-size: 15px;
+    margin-top: 12px;
   }
 
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
+ 
 /*Desktops, large screens*/
   @media only screen and (min-width: 1025px) {
-    .flex-header{
-      display:flex;
-      justify-content:space-between
     
-    }
-    #menu {
-      font-size: 100%;
-      letter-spacing: 5px;
-      display: flex;
-    }
-    
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+   
+
   }
 
 

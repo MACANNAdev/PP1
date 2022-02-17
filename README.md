@@ -42,6 +42,18 @@ Fungi guide is a website that enables users to connect with Elina who offers wor
 ## Features
 
 
+1. **Contact Form**  - a form that allows people interested in Elina's work to contact her.
+
+2. **Social media links** - links in the footer that allow users to find her social media accounts.
+
+
+## Future Features
+   
+   1. **Testimonial** - I would add a scrolling testimonial at the end of the home page in order to reinforce people opinion of Elina through social proof. I would use [owl carousel](https://owlcarousel2.github.io/OwlCarousel2/) for this.
+
+   2. **Shop page**- I would create a new page to sell mushroom powders used as health supplements
+
+   3. **Identification pdf** - I would add a link to a pdf with identification tips.
 
 
 
@@ -59,12 +71,17 @@ Fungi guide is a website that enables users to connect with Elina who offers wor
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-1. [Git](https://git-scm.com/)
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+    
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
 
-1. [Balsamiq] (https://balsamiq.com/)was used to create the wireframes during the design process.
+1.[Tinypng:](https://tinypng.com/)
+    - Tinypng allowed me to compress the images, which allowed the website to load faster, increasing its performance rating.
+
 
 ## Testing
 ### Code Validation
@@ -74,7 +91,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) - [Results](readme-files/readme-images/validator-w3.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) - [Results](readme-files/readme-images/css-validator.png)
 
-###Lighthouse testing
+### Lighthouse testing
 
 The website was tested for both mobile and desktop
 - [Mobile-results](readme-files/readme-images/lighthouse-mobile.png)
@@ -82,37 +99,73 @@ The website was tested for both mobile and desktop
 
 ### Testing User Stories from User Experience (UX) Section
 
--   
 
-
-
-
-    1.   I want to learn what the website contains, whether I like it or not and the if its what I am looking for.
+ 1.   I want to learn what the website contains, whether I like it or not and the if its what I am looking for.
     
-         1.The nav bar shows the available pages with names that clearly portray their contents
+    1. The nav bar shows the available pages with names that clearly portray their contents
 
-         2.The hero image shows a mushroom growing ina pleasant landscape which lets the user know they are on a site that is about mushrooms.
+    2. The hero image shows a mushroom growing ina pleasant landscape which lets the user know they are on a site that is about mushrooms.
 
-    2.I want to get to know the person who's business it is to know if I want to engage further.
+ 2.  I want to get to know the person who's business it is to know if I want to engage further.
 
-        1. The profile image presents an image of the website owner that expresses her individuality and an aesthetic that they may find appealing
-        2. 
+    1. The profile image presents an image of the website owner that expresses her individuality and an aesthetic that they may find appealing.
 
-        3. 
+    2. The profile text gives the user some information about Elinas expertise and personality.
+
+       
+    3. I want to validate their capabilities by assessing there social media presence.
+      
+       1.The social media footer contains links to social media presence
         
-       
-       
 
-    
+4. I want to know what is being uniquely offered here.
+       
+     1. The profile text outlines Elina's unique backround which is a mixture of a love of science and being in nature.
 
--  
+    2.  The events page outlines the various ways in which Elina can be of service to people.
+     
+
+
+5. I want to contact the owner to learn more and connect.
+
+    1. The social media links allow users to follow her on their platforms.
+
+    2. The form on the contact page provides a means for users to connect with her
+
+
 
 ### Further Testing
 
-### Known Bugs
+ 1. Contact form
 
--
+      1.  Press submit when text fields are blank, wich results in a pop requesting that the field be filed.
+
+      2.  Type text that is not an email address into email text box and the pop up returns requesting that the field  be filed.
+
+      3. Fill out the form, submit and then I am guided to a thank you page.
+
+
+ 2. Social media links
+
+    1. When the links are clicked on each page they bring the user to the appropriate site.
+    
+
+
 ## Deployment
+
+To deploy a website on GitHub Pages, follow these steps:
+
+   1. Go to the repository page
+
+    2. Click on settings icon in the top of the page
+   
+   3. Find "GitHub Pages" section
+
+    4. Click on the "Source" dropdown menu
+
+    5. Select "master branch" option
+
+    6. A green success message should appear in the "GitHub Pages" section with the link to the live preview of the project.
 
 ### GitHub Pages
 

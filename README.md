@@ -1,108 +1,178 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="left">Fungi Guide</h1>
 
-Welcome MACANNAdev,
+[View the live project here.](https://macannadev.github.io/fungi-guide/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Fungi guide is a website that enables users to connect with Elina who offers workshops and guidance related to fungi.
+<h2 align="center"><img src="readme-files/readme-images/website.jpg"></h2>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Experience (UX)
 
-## Gitpod Reminders
+-   ### User story
+1 I want to learn what the website contains, whether I like it or not and the if its what I am looking for.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+2 I want to get to know the person whos business it is to know if I want to engage further.
 
-`python3 -m http.server`
+3 I want to validate their capabilities by assessing there social media presence.
 
-A blue button should appear to click: _Make Public_,
+4 I want to know what is being uniquely offered here.
 
-Another blue button should appear to click: _Open Browser_.
+5 I want to contact the owner to learn more and connect.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+ -  ### Business story
+1 I want to introduce myself to the customer.I want to make them feel like they can reach out to me and that I am approachable so they can see themselves coming to my events.
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Design
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    -   #### Typography
+        -   The logo, and headers sized text uses Bree Serif with serif as a fall back.
+        Bree serif is described as friendly upright italic, which suits the UX intention to create a approachable and friendly impression.
+    -   #### Images
+        -   The large images on the main and from pages are attempting to create a sense of place where the user would like to be.
+        -   The profile image associates a person with that place and further develops this theme.
+        -   The events image portray what the events is about in the form of an image.
 
-To log into the Heroku toolbelt CLI:
+*   ### Wireframes
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   Home Page Wireframe - [View](/readme-files/wireframes/home.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    -   Events Page Wireframe - [View](/readme-files/wireframes/events.png)
+    -   Contact Us Page Wireframe - [View](/readme-files/wireframes/contact.png)
 
-------
+## Features
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Languages Used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Frameworks, Libraries & Programs Used
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Bree serif' and Lato fonts into the style.css file 
+    .
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. [Balsamiq] (https://balsamiq.com/)was used to create the wireframes during the design process.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
+### Code Validation
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) - [Results](readme-files/readme-images/validator-w3.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) - [Results](readme-files/readme-images/css-validator.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+###Lighthouse testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The website was tested for both mobile and desktop
+- [Mobile-results](readme-files/readme-images/lighthouse-mobile.png)
+- [Desktop-results](readme-files/readme-images/lighthouse-desktop.png)
 
-------
+### Testing User Stories from User Experience (UX) Section
 
-## FAQ about the uptime script
+-   
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    1.   I want to learn what the website contains, whether I like it or not and the if its what I am looking for.
+    
+         1.The nav bar shows the available pages with names that clearly portray their contents
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+         2.The hero image shows a mushroom growing ina pleasant landscape which lets the user know they are on a site that is about mushrooms.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    2.I want to get to know the person who's business it is to know if I want to engage further.
 
-**So….?**
+        1. The profile image presents an image of the website owner that expresses her individuality and an aesthetic that they may find appealing
+        2. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+        3. 
+        
+       
+       
 
-**Can I opt out?**
+    
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+-  
+
+### Further Testing
+
+### Known Bugs
+
+-
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Happy coding!
+## Credits
+
+### Code
+
+- 
+
+-   All content was written by the developer.
+
+-
+### Media
+
+
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.

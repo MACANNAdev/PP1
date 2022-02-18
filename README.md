@@ -35,10 +35,8 @@ Fungi guide is a website that enables users to connect with Elina who offers wor
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](/readme-files/wireframes/home.png)
-
-    -   Events Page Wireframe - [View](/readme-files/wireframes/events.png)
-    -   Contact Us Page Wireframe - [View](/readme-files/wireframes/contact.png)
+    -   Desktop Wireframe - [View](/readme-files/wireframes/mobile-wireframes.bmpr)
+    -   Mobile Wireframe - [View](/readme-files/wireframes/wireframe-desktop.bmpr)
 
 ## Features
 
@@ -93,45 +91,50 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Lighthouse testing
 
-The website was tested for both mobile and desktop
-- [Mobile-results](readme-files/readme-images/lighthouse-mobile.png)
-- [Desktop-results](readme-files/readme-images/lighthouse-desktop.png)
+The website was tested for both mobile and desktop in three browsers
+- [Chrome mobile results](readme-files/readme-images/chrome-lighthouse-mobile.png)
+- [Chrome desktop results](readme-files/readme-images/chrome-lighthouse-desktop.png)
 
+- [Edge mobile results](readme-files/readme-images/edge-lighthouse-mobile.png)
+- [Edge desktop results](readme-files/readme-images/edge-lighthouse-desktop.png)
+
+- [Mozilla mobile results](readme-files/readme-images/mozilla-lighthouse-mobile.png)
+- [Mozilla desktop results](readme-files/readme-images/mozilla-lighthouse-desktop.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
 
  1.   I want to learn what the website contains, whether I like it or not and the if its what I am looking for.
     
-    1. The nav bar shows the available pages with names that clearly portray their contents
+    - The nav bar shows the available pages with names that clearly portray their contents
 
-    2. The hero image shows a mushroom growing ina pleasant landscape which lets the user know they are on a site that is about mushrooms.
+    - The hero image shows a mushroom growing ina pleasant landscape which lets the user know they are on a site that is about mushrooms.
 
  2.  I want to get to know the person who's business it is to know if I want to engage further.
 
-    1. The profile image presents an image of the website owner that expresses her individuality and an aesthetic that they may find appealing.
+    - The profile image presents an image of the website owner that expresses her individuality and an aesthetic that they may find appealing.
 
-    2. The profile text gives the user some information about Elinas expertise and personality.
+    - The profile text gives the user some information about Elinas expertise and personality.
 
        
-    3. I want to validate their capabilities by assessing there social media presence.
+    - I want to validate their capabilities by assessing there social media presence.
       
        1.The social media footer contains links to social media presence
         
 
 4. I want to know what is being uniquely offered here.
        
-     1. The profile text outlines Elina's unique backround which is a mixture of a love of science and being in nature.
+     - The profile text outlines Elina's unique backround which is a mixture of a love of science and being in nature.
 
-     2.  The events page outlines the various ways in which Elina can be of service to people.
+     - The events page outlines the various ways in which Elina can be of service to people.
      
 
 
 5. I want to contact the owner to learn more and connect.
 
-     1. The social media links allow users to follow her on their platforms.
+     - The social media links allow users to follow her on their platforms.
 
-     2. The form on the contact page provides a means for users to connect with her
+     - The form on the contact page provides a means for users to connect with her
   
 
 
@@ -139,16 +142,16 @@ The website was tested for both mobile and desktop
 
  1. Contact form
 
-      1.  Press submit when text fields are blank, wich results in a pop requesting that the field be filed.
+      -  Press submit when text fields are blank, wich results in a pop requesting that the field be filed.
 
-      2.  Type text that is not an email address into email text box and the pop up returns requesting that the field  be filed.
+      -  Type text that is not an email address into email text box and the pop up returns requesting that the field  be filed.
 
-      3. Fill out the form, submit and then I am guided to a thank you page.
+      - Fill out the form, submit and then I am guided to a thank you page.
 
 
  2. Social media links
 
-      1. When the links are clicked on each page they bring the user to the appropriate site.
+      - When the links are clicked on each page they bring the user to the appropriate site.
     
 
 

@@ -37,7 +37,7 @@ Fungi guide is a website that enables users to connect with Elina who offers wor
 *   ### Wireframes
 
     -   Desktop Wireframe - [View](/readme-files/wireframes/wireframes-desktop.pdf)
-    -   Mobile Wireframe - [View](/readme-files/wireframes/wireframe-desktop.bmpr)
+    -   Mobile Wireframe - [View](/readme-files/wireframes/wireframes-mobile.pdf)
 
 ## Features
 

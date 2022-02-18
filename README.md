@@ -21,7 +21,8 @@ Fungi guide is a website that enables users to connect with Elina who offers wor
 
 
  -  ### Business story
-        I want to introduce myself to the customer.I want to make them feel like they can reach out to me and that I am approachable so they can see themselves coming to my events.
+
+       - I want to introduce myself to the customer.I want to make them feel like they can reach out to me and that I am approachable so they can see themselves coming to my events.
 
 - ### Design
 
@@ -104,13 +105,14 @@ The website was tested for both mobile and desktop in three browsers
 ### Testing User Stories from User Experience (UX) Section
 
 
- 1.   I want to learn what the website contains, whether I like it or not and the if its what I am looking for.
+ 
+1.   I want to learn what the website contains, whether I like it or not and the if its what I am looking for.
     
-    - The nav bar shows the available pages with names that clearly portray their contents
+     - The nav bar shows the available pages with names that clearly portray their contents
 
-    - The hero image shows a mushroom growing ina pleasant landscape which lets the user know they are on a site that is about mushrooms.
+     - The hero image shows a mushroom growing ina pleasant landscape which lets the user know they are on a site that is about mushrooms.
 
- 2.  I want to get to know the person who's business it is to know if I want to engage further.
+2.  I want to get to know the person who's business it is to know if I want to engage further.
 
     - The profile image presents an image of the website owner that expresses her individuality and an aesthetic that they may find appealing.
 
@@ -122,7 +124,7 @@ The website was tested for both mobile and desktop in three browsers
        1.The social media footer contains links to social media presence
         
 
-4. I want to know what is being uniquely offered here.
+3. I want to know what is being uniquely offered here.
        
      - The profile text outlines Elina's unique backround which is a mixture of a love of science and being in nature.
 
@@ -130,7 +132,7 @@ The website was tested for both mobile and desktop in three browsers
      
 
 
-5. I want to contact the owner to learn more and connect.
+4. I want to contact the owner to learn more and connect.
 
      - The social media links allow users to follow her on their platforms.
 

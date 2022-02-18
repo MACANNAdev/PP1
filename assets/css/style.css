@@ -9,7 +9,6 @@
 }
 
 
-
 li {
   list-style-type: none;
 }
@@ -207,7 +206,7 @@ footer {
 #subject {
   height: 200px;
   width: 100%;
-  ;
+  
 }
 
 .join-button {
@@ -240,8 +239,7 @@ footer {
 
   }
 
-  #menu,
-  #logo {
+  #menu, #logo {
     margin-top: 15px
   }
 
@@ -388,7 +386,7 @@ footer {
   }
 
 }
-
+/* XL screens*/
 @media only screen and (min-width: 1200px) {
   #hero-image {
     width: 100%;
